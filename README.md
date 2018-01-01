@@ -1,5 +1,9 @@
 # KGBadgeView - Get an awesome badge view :collision: :+1:
 
+[![CocoaPods](https://img.shields.io/cocoapods/dt/KGBadgeView.svg)](https://cocoapods.org/pods/KGBadgeView)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/Gypsyan/KGBadgeView)
+https://img.shields.io/badge/KGBadgeView-Swift3+-orange.svg
+
 A quick way to add badge icon on the UIView elements.
 
 
