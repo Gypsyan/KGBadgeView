@@ -1,7 +1,6 @@
 # KGBadgeView - Get an awesome badge view :collision: :+1:
 
-[![CocoaPods](https://img.shields.io/cocoapods/dt/KGBadgeView.svg)](https://cocoapods.org/pods/KGBadgeView)
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/Gypsyan/KGBadgeView)
+[![Build Status](https://travis-ci.org/Gypsyan/KGBadgeView.svg?branch=master)](https://travis-ci.org/Gypsyan/KGBadgeView)
 [![Swift3+ Compatible](https://img.shields.io/badge/KGBadgeView-Swift3+-brightgreen.svg)](https://img.shields.io/badge/KGBadgeView-Swift3+-brightgreen.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/KGBadgeView.svg)](https://cocoapods.org/pods/KGBadgeView)
 
