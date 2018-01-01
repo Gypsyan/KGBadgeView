@@ -66,7 +66,7 @@ To set position for a badge use teh following
 ### Set Animations
 
 ```
- kgBadgeObj3.showAnimation(type: KGBadgeView.AnimType.shakeAnim)
+ kgBadgeObj.showAnimation(type: KGBadgeView.AnimType.shakeAnim)
 ```
 Different animations,
 
