@@ -1,0 +1,21 @@
+
+language: objective-c
+
+matrix:
+  include:
+    - osx_image: xcode9.3
+
+before_install:
+  - rvm install 2.4.0
+
+install:
+  - gem install cocoapods
+
+script:
+  - pod lib lint --allow-warnings
+  - xcodebuild clean build -project KGBadgeView.xcodeproj CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO
+  
+  # When pushing to the master branch, release a new version 
+  - if [ "${TRAVIS_BRANCH}" = "master" ]; then
+      bash scripts/release.sh;
+    fi
