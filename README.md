@@ -6,6 +6,8 @@
 
 A quick way to add badge icon on the UIView elements.
 
+![Alt Text](https://github.com/Gypsyan/KGBadgeView/raw/master/images/images.gif)
+
 
 ## Cocoapods
 

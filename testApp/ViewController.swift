@@ -83,8 +83,9 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UITabBarDe
         kgBadgeObj5.showCount()
         kgBadgeObj5.showAnimation(type: KGBadgeView.AnimType.shakeAnim)
         kgBadgeObj3.showAnimation(type: KGBadgeView.AnimType.defaultAnim)
-        kgBadgeObj1.showAnimation(type: KGBadgeView.AnimType.defaultAnim)
+        kgBadgeObj1.showAnimation(type: KGBadgeView.AnimType.blinkAnim)
         kgBadgeObj2.showAnimation(type: KGBadgeView.AnimType.pulseAnim)
+        kgBadgeObj4.showAnimation(type: KGBadgeView.AnimType.swingAnim)
 
 
         
