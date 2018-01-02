@@ -88,4 +88,4 @@ Different animations,
  For support raise an issue [here](https://github.com/Gypsyan/KGBadgeView/issues).
 
 
-Please feel to contribute changes 💪✌️💯
+Please feel free to contribute 💪✌️💯
