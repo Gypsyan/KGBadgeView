@@ -97,7 +97,11 @@ open class KGBadgeView: NSObject {
     }
     
     private func createView(view: Any) {
-        viewFrame = (view as AnyObject).frame;
+        if #available(iOS 12.0, *) {
+            viewFrame = (view as AnyObject).frame
+        } else {
+            // Fallback on earlier versions
+        };
         customView = UIView(frame: CGRect(x: viewFrame.size.width - defaultDiameter/2, y:  -(defaultDiameter/2), width: defaultDiameter, height: defaultDiameter))
         customView.isUserInteractionEnabled = false
         customView.backgroundColor = backgroundColor
